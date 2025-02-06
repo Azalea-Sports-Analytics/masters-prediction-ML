@@ -71,7 +71,7 @@ I'm a Data Analytics Consultant specializing in Python, data wrangling, and stat
 
 1. **Interested?** Drop a comment or DM me.
 2. **Selection:** If selected, you'll gain access to our GitHub repo and collaboration tools.
-3. **Kick-Off:** We start Week 1 (data collection & setup) in March.
+3. **Kick-Off:** We start Week 1..
 
 ---
 
