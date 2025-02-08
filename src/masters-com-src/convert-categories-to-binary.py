@@ -78,3 +78,18 @@ Input: File Path to the csv
 Output: Dataframe as outlined above.
 """
 
+import json
+import pandas as pd
+import os
+
+
+# Now use the relative path from project_root
+file_path = "data/masters-com-data/invitees-2025.json"
+
+with open(file_path, 'r', encoding='utf-8') as file:
+    data = json.load(file)
+
+# Extract the invitees list and convert to DataFrame
+invitees_data = data["invitees"]
+invitees_df = pd.DataFrame(invitees_data)
+print(invitees_df.head())
