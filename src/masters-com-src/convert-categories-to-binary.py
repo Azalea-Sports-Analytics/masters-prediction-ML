@@ -76,6 +76,8 @@ I expect the function to be able to do the same process to any csv that looks li
 
 Input: File Path to the json
 Output: Dataframe as outlined above.
+
+The idea of this function is that this process is repeatable for 2023 and 2024 invite list.
 """
 
 import json
