@@ -74,7 +74,7 @@ This is because Ewan Beck is playing his first Masters, is an amateur, and quali
 I expect the function to be able to do the same process to any csv that looks like this.
 
 
-Input: File Path to the csv
+Input: File Path to the json
 Output: Dataframe as outlined above.
 """
 
