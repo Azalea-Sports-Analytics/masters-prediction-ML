@@ -1,0 +1,968 @@
+{
+  "qualifiedDate": "01/28/2025",
+  "pdf": "/pdf/2025_Masters_Tournament_Invitees.pdf",
+  "invitees": [
+    {
+      "firstname": "Ludvig",
+      "lastname": "\u00c5berg",
+      "country": "Sweden",
+      "qualifications": "13,18,19",
+      "amatuer": false,
+      "firstMasters": false,
+      "augusta": false,
+      "inp": false
+    },
+    {
+      "firstname": "Byeong Hun",
+      "lastname": "An",
+      "country": "Korea",
+      "qualifications": "18,19",
+      "amatuer": false,
+      "firstMasters": false,
+      "augusta": false,
+      "inp": false
+    },
+    {
+      "firstname": "Jose Luis ",
+      "lastname": "Ballester",
+      "country": "Spain",
+      "qualifications": "7-A",
+      "amatuer": true,
+      "firstMasters": true,
+      "augusta": false,
+      "inp": false
+    },
+    {
+      "firstname": "Evan",
+      "lastname": "Beck",
+      "country": "United States",
+      "qualifications": "11",
+      "amatuer": true,
+      "firstMasters": true,
+      "augusta": false,
+      "inp": false
+    },
+    {
+      "firstname": "Christiaan",
+      "lastname": "Bezuidenhout",
+      "country": "South Africa",
+      "qualifications": "18",
+      "amatuer": false,
+      "firstMasters": false,
+      "augusta": false,
+      "inp": false
+    },
+    {
+      "firstname": "Akshay",
+      "lastname": "Bhatia",
+      "country": "United States",
+      "qualifications": "18,19",
+      "amatuer": false,
+      "firstMasters": false,
+      "augusta": false,
+      "inp": false
+    },
+    {
+      "firstname": "Keegan",
+      "lastname": "Bradley",
+      "country": "United States",
+      "qualifications": "17, 18, 19",
+      "amatuer": false,
+      "firstMasters": false,
+      "augusta": false,
+      "inp": false
+    },
+    {
+      "firstname": "Sam",
+      "lastname": "Burns",
+      "country": "United States",
+      "qualifications": "18, 19",
+      "amatuer": false,
+      "firstMasters": false,
+      "augusta": false,
+      "inp": false
+    },
+    {
+      "firstname": "Angel",
+      "lastname": "Cabrera",
+      "country": "Argentina",
+      "qualifications": "1",
+      "amatuer": false,
+      "firstMasters": false,
+      "augusta": false,
+      "inp": false
+    },
+    {
+      "firstname": "Rafael",
+      "lastname": "Campos",
+      "country": "Puerto Rico",
+      "qualifications": "17",
+      "amatuer": false,
+      "firstMasters": true,
+      "augusta": false,
+      "inp": false
+    },
+    {
+      "firstname": "Patrick",
+      "lastname": "Cantlay",
+      "country": "United States",
+      "qualifications": "14,18,19",
+      "amatuer": false,
+      "firstMasters": false,
+      "augusta": false,
+      "inp": false
+    },
+    {
+      "firstname": "Wyndham",
+      "lastname": "Clark",
+      "country": "United States",
+      "qualifications": "2, 18, 19",
+      "amatuer": false,
+      "firstMasters": false,
+      "augusta": false,
+      "inp": false
+    },
+    {
+      "firstname": "Corey",
+      "lastname": "Conners",
+      "country": "Canada",
+      "qualifications": "19",
+      "amatuer": false,
+      "firstMasters": false,
+      "augusta": false,
+      "inp": false
+    },
+    {
+      "firstname": "Fred",
+      "lastname": "Couples",
+      "country": "United States",
+      "qualifications": "1",
+      "amatuer": false,
+      "firstMasters": false,
+      "augusta": false,
+      "inp": false
+    },
+    {
+      "firstname": "Cameron",
+      "lastname": "Davis",
+      "country": "Australia",
+      "qualifications": "13,17",
+      "amatuer": false,
+      "firstMasters": false,
+      "augusta": false,
+      "inp": false
+    },
+    {
+      "firstname": "Jason",
+      "lastname": "Day",
+      "country": "Australia",
+      "qualifications": "19",
+      "amatuer": false,
+      "firstMasters": false,
+      "augusta": false,
+      "inp": false
+    },
+    {
+      "firstname": "Bryson",
+      "lastname": "DeChambeau",
+      "country": "United States",
+      "qualifications": "2, 13, 16, 19",
+      "amatuer": false,
+      "firstMasters": false,
+      "augusta": false,
+      "inp": false
+    },
+    {
+      "firstname": "Thomas",
+      "lastname": "Detry",
+      "country": "Belgium",
+      "qualifications": "16",
+      "amatuer": false,
+      "firstMasters": true,
+      "augusta": false,
+      "inp": false
+    },
+    {
+      "firstname": "Nick",
+      "lastname": "Dunlap",
+      "country": "United States",
+      "qualifications": "19",
+      "amatuer": false,
+      "firstMasters": false,
+      "augusta": false,
+      "inp": false
+    },
+    {
+      "firstname": "Nicolas",
+      "lastname": "Echavarria",
+      "country": "Colombia",
+      "qualifications": "17",
+      "amatuer": false,
+      "firstMasters": true,
+      "augusta": false,
+      "inp": false
+    },
+    {
+      "firstname": "Austin",
+      "lastname": "Eckroat",
+      "country": "United States",
+      "qualifications": "17, 19",
+      "amatuer": false,
+      "firstMasters": false,
+      "augusta": false,
+      "inp": false
+    },
+    {
+      "firstname": "Harris",
+      "lastname": "English",
+      "country": "United States",
+      "qualifications": "17",
+      "amatuer": false,
+      "firstMasters": false,
+      "augusta": false,
+      "inp": false
+    },
+    {
+      "firstname": "Tony",
+      "lastname": "Finau",
+      "country": "United States",
+      "qualifications": "14, 18, 19",
+      "amatuer": false,
+      "firstMasters": false,
+      "augusta": false,
+      "inp": false
+    },
+    {
+      "firstname": "Matt",
+      "lastname": "Fitzpatrick",
+      "country": "England",
+      "qualifications": "2,19",
+      "amatuer": false,
+      "firstMasters": false,
+      "augusta": false,
+      "inp": false
+    },
+    {
+      "firstname": "Tommy",
+      "lastname": "Fleetwood",
+      "country": "England",
+      "qualifications": "13,18,19",
+      "amatuer": false,
+      "firstMasters": false,
+      "augusta": false,
+      "inp": false
+    },
+    {
+      "firstname": "Sergio",
+      "lastname": "Garcia",
+      "country": "Spain",
+      "qualifications": "1",
+      "amatuer": false,
+      "firstMasters": false,
+      "augusta": false,
+      "inp": false
+    },
+    {
+      "firstname": "Lucas",
+      "lastname": "Glover",
+      "country": "United States",
+      "qualifications": "19",
+      "amatuer": false,
+      "firstMasters": false,
+      "augusta": false,
+      "inp": false
+    },
+    {
+      "firstname": "Max",
+      "lastname": "Greyserman",
+      "country": "United States",
+      "qualifications": "19",
+      "amatuer": false,
+      "firstMasters": true,
+      "augusta": false,
+      "inp": false
+    },
+    {
+      "firstname": "Brian",
+      "lastname": "Harman",
+      "country": "United States",
+      "qualifications": "3, 19",
+      "amatuer": false,
+      "firstMasters": false,
+      "augusta": false,
+      "inp": false
+    },
+    {
+      "firstname": "Justin",
+      "lastname": "Hastings",
+      "country": "Cayman Islands",
+      "qualifications": "10",
+      "amatuer": true,
+      "firstMasters": true,
+      "augusta": false,
+      "inp": false
+    },
+    {
+      "firstname": "Tyrrell",
+      "lastname": "Hatton",
+      "country": "England",
+      "qualifications": "13,19",
+      "amatuer": false,
+      "firstMasters": false,
+      "augusta": false,
+      "inp": false
+    },
+    {
+      "firstname": "Russell",
+      "lastname": "Henley",
+      "country": "United States",
+      "qualifications": "18, 19",
+      "amatuer": false,
+      "firstMasters": false,
+      "augusta": false,
+      "inp": false
+    },
+    {
+      "firstname": "Tom",
+      "lastname": "Hoge",
+      "country": "United States",
+      "qualifications": "18",
+      "amatuer": false,
+      "firstMasters": false,
+      "augusta": false,
+      "inp": false
+    },
+    {
+      "firstname": "Nicolai",
+      "lastname": "H\u00f8jgaard",
+      "country": "Denmark",
+      "qualifications": "Special",
+      "amatuer": false,
+      "firstMasters": false,
+      "augusta": true,
+      "inp": false
+    },
+    {
+      "firstname": "Rasmus",
+      "lastname": "H\u00f8jgaard",
+      "country": "Denmark",
+      "qualifications": "19",
+      "amatuer": false,
+      "firstMasters": true,
+      "augusta": false,
+      "inp": false
+    },
+    {
+      "firstname": "Max",
+      "lastname": "Homa",
+      "country": "United States",
+      "qualifications": "13,19",
+      "amatuer": false,
+      "firstMasters": false,
+      "augusta": false,
+      "inp": false
+    },
+    {
+      "firstname": "Billy",
+      "lastname": "Horschel",
+      "country": "United States",
+      "qualifications": "15,18,19",
+      "amatuer": false,
+      "firstMasters": false,
+      "augusta": false,
+      "inp": false
+    },
+    {
+      "firstname": "Viktor",
+      "lastname": "Hovland",
+      "country": "Norway",
+      "qualifications": "16, 18, 19",
+      "amatuer": false,
+      "firstMasters": false,
+      "augusta": false,
+      "inp": false
+    },
+    {
+      "firstname": "Sungjae",
+      "lastname": "Im",
+      "country": "Korea",
+      "qualifications": "18, 19",
+      "amatuer": false,
+      "firstMasters": false,
+      "augusta": false,
+      "inp": false
+    },
+    {
+      "firstname": "Dustin",
+      "lastname": "Johnson",
+      "country": "United States",
+      "qualifications": "1",
+      "amatuer": false,
+      "firstMasters": false,
+      "augusta": false,
+      "inp": false
+    },
+    {
+      "firstname": "Zach",
+      "lastname": "Johnson",
+      "country": "United States",
+      "qualifications": "1",
+      "amatuer": false,
+      "firstMasters": false,
+      "augusta": false,
+      "inp": false
+    },
+    {
+      "firstname": "Noah",
+      "lastname": "Kent",
+      "country": "United States",
+      "qualifications": "7-B",
+      "amatuer": true,
+      "firstMasters": true,
+      "augusta": false,
+      "inp": false
+    },
+    {
+      "firstname": "Tom",
+      "lastname": "Kim",
+      "country": "Korea",
+      "qualifications": "19",
+      "amatuer": false,
+      "firstMasters": false,
+      "augusta": false,
+      "inp": false
+    },
+    {
+      "firstname": "Chris",
+      "lastname": "Kirk",
+      "country": "United States",
+      "qualifications": "18",
+      "amatuer": false,
+      "firstMasters": false,
+      "augusta": false,
+      "inp": false
+    },
+    {
+      "firstname": "Patton",
+      "lastname": "Kizzire",
+      "country": "United States",
+      "qualifications": "17",
+      "amatuer": false,
+      "firstMasters": false,
+      "augusta": false,
+      "inp": false
+    },
+    {
+      "firstname": "Brooks",
+      "lastname": "Koepka",
+      "country": "United States",
+      "qualifications": "4",
+      "amatuer": false,
+      "firstMasters": false,
+      "augusta": false,
+      "inp": false
+    },
+    {
+      "firstname": "Bernhard",
+      "lastname": "Langer",
+      "country": "Germany",
+      "qualifications": "1",
+      "amatuer": false,
+      "firstMasters": false,
+      "augusta": false,
+      "inp": false
+    },
+    {
+      "firstname": "Thriston",
+      "lastname": "Lawrence",
+      "country": "South Africa",
+      "qualifications": "15,19",
+      "amatuer": false,
+      "firstMasters": true,
+      "augusta": false,
+      "inp": false
+    },
+    {
+      "firstname": "Min Woo",
+      "lastname": "Lee",
+      "country": "Australia",
+      "qualifications": "19",
+      "amatuer": false,
+      "firstMasters": false,
+      "augusta": false,
+      "inp": false
+    },
+    {
+      "firstname": "Shane",
+      "lastname": "Lowry",
+      "country": "Ireland",
+      "qualifications": "18,19",
+      "amatuer": false,
+      "firstMasters": false,
+      "augusta": false,
+      "inp": false
+    },
+    {
+      "firstname": "Robert",
+      "lastname": "MacIntyre",
+      "country": "Scotland",
+      "qualifications": "17,18,19",
+      "amatuer": false,
+      "firstMasters": false,
+      "augusta": false,
+      "inp": false
+    },
+    {
+      "firstname": "Hideki",
+      "lastname": "Matsuyama",
+      "country": "Japan",
+      "qualifications": "1,17,18,19",
+      "amatuer": false,
+      "firstMasters": false,
+      "augusta": false,
+      "inp": false
+    },
+    {
+      "firstname": "Denny",
+      "lastname": "McCarthy",
+      "country": "United States",
+      "qualifications": "19",
+      "amatuer": false,
+      "firstMasters": false,
+      "augusta": false,
+      "inp": false
+    },
+    {
+      "firstname": "Matt",
+      "lastname": "McCarty",
+      "country": "United States",
+      "qualifications": "17,19",
+      "amatuer": false,
+      "firstMasters": true,
+      "augusta": false,
+      "inp": false
+    },
+    {
+      "firstname": "Rory",
+      "lastname": "McIlroy",
+      "country": "Northern Ireland",
+      "qualifications": "14, 17, 18, 19",
+      "amatuer": false,
+      "firstMasters": false,
+      "augusta": false,
+      "inp": false
+    },
+    {
+      "firstname": "Maverick",
+      "lastname": "McNealy",
+      "country": "United States",
+      "qualifications": "17,19",
+      "amatuer": false,
+      "firstMasters": true,
+      "augusta": false,
+      "inp": false
+    },
+    {
+      "firstname": "Phil",
+      "lastname": "Mickelson",
+      "country": "United States",
+      "qualifications": "1, 4",
+      "amatuer": false,
+      "firstMasters": false,
+      "augusta": false,
+      "inp": false
+    },
+    {
+      "firstname": "Collin",
+      "lastname": "Morikawa",
+      "country": "United States",
+      "qualifications": "3, 4, 13, 16, 18, 19",
+      "amatuer": false,
+      "firstMasters": false,
+      "augusta": false,
+      "inp": false
+    },
+    {
+      "firstname": "Joaqu\u00edn",
+      "lastname": "Niemann",
+      "country": "Chile",
+      "qualifications": "Special",
+      "amatuer": false,
+      "firstMasters": false,
+      "augusta": true,
+      "inp": false
+    },
+    {
+      "firstname": "Jose Maria",
+      "lastname": "Olazabal",
+      "country": "Spain",
+      "qualifications": "1",
+      "amatuer": false,
+      "firstMasters": false,
+      "augusta": false,
+      "inp": false
+    },
+    {
+      "firstname": "Matthieu",
+      "lastname": "Pavon",
+      "country": "France",
+      "qualifications": "13,18,19",
+      "amatuer": false,
+      "firstMasters": false,
+      "augusta": false,
+      "inp": false
+    },
+    {
+      "firstname": "Taylor",
+      "lastname": "Pendrith",
+      "country": "Canada",
+      "qualifications": "17,18,19",
+      "amatuer": false,
+      "firstMasters": true,
+      "augusta": false,
+      "inp": false
+    },
+    {
+      "firstname": "J.T.",
+      "lastname": "Poston",
+      "country": "United States",
+      "qualifications": "17, 19",
+      "amatuer": false,
+      "firstMasters": false,
+      "augusta": false,
+      "inp": false
+    },
+    {
+      "firstname": "Jon",
+      "lastname": "Rahm",
+      "country": "Spain",
+      "qualifications": "1, 2, 19",
+      "amatuer": false,
+      "firstMasters": false,
+      "augusta": false,
+      "inp": false
+    },
+    {
+      "firstname": "Aaron",
+      "lastname": "Rai",
+      "country": "England",
+      "qualifications": "17,18,19",
+      "amatuer": false,
+      "firstMasters": true,
+      "augusta": false,
+      "inp": false
+    },
+    {
+      "firstname": "Patrick",
+      "lastname": "Reed",
+      "country": "United States",
+      "qualifications": "1, 13",
+      "amatuer": false,
+      "firstMasters": false,
+      "augusta": false,
+      "inp": false
+    },
+    {
+      "firstname": "Davis",
+      "lastname": "Riley",
+      "country": "United States",
+      "qualifications": "17",
+      "amatuer": false,
+      "firstMasters": true,
+      "augusta": false,
+      "inp": false
+    },
+    {
+      "firstname": "Justin",
+      "lastname": "Rose",
+      "country": "England",
+      "qualifications": "15,19",
+      "amatuer": false,
+      "firstMasters": false,
+      "augusta": false,
+      "inp": false
+    },
+    {
+      "firstname": "Xander",
+      "lastname": "Schauffele",
+      "country": "United States",
+      "qualifications": "3,4,13,18,19",
+      "amatuer": false,
+      "firstMasters": false,
+      "augusta": false,
+      "inp": false
+    },
+    {
+      "firstname": "Scottie",
+      "lastname": "Scheffler",
+      "country": "United States",
+      "qualifications": "1, 5, 6, 17, 18, 19",
+      "amatuer": false,
+      "firstMasters": false,
+      "augusta": false,
+      "inp": false
+    },
+    {
+      "firstname": "Adam",
+      "lastname": "Schenk",
+      "country": "United States",
+      "qualifications": "13",
+      "amatuer": false,
+      "firstMasters": false,
+      "augusta": false,
+      "inp": false
+    },
+    {
+      "firstname": "Charl",
+      "lastname": "Schwartzel",
+      "country": "South Africa",
+      "qualifications": "1",
+      "amatuer": false,
+      "firstMasters": false,
+      "augusta": false,
+      "inp": false
+    },
+    {
+      "firstname": "Adam",
+      "lastname": "Scott",
+      "country": "Australia",
+      "qualifications": "1, 18, 19",
+      "amatuer": false,
+      "firstMasters": false,
+      "augusta": false,
+      "inp": false
+    },
+    {
+      "firstname": "Vijay",
+      "lastname": "Singh",
+      "country": "Fiji",
+      "qualifications": "1",
+      "amatuer": false,
+      "firstMasters": false,
+      "augusta": false,
+      "inp": false
+    },
+    {
+      "firstname": "Cameron",
+      "lastname": "Smith",
+      "country": "Australia",
+      "qualifications": "3, 13",
+      "amatuer": false,
+      "firstMasters": false,
+      "augusta": false,
+      "inp": false
+    },
+    {
+      "firstname": "Jordan",
+      "lastname": "Spieth",
+      "country": "United States",
+      "qualifications": "1",
+      "amatuer": false,
+      "firstMasters": false,
+      "augusta": false,
+      "inp": false
+    },
+    {
+      "firstname": "Sepp",
+      "lastname": "Straka",
+      "country": "Austria",
+      "qualifications": "17, 18, 19",
+      "amatuer": false,
+      "firstMasters": false,
+      "augusta": false,
+      "inp": false
+    },
+    {
+      "firstname": "Hiroshi",
+      "lastname": "Tai",
+      "country": "Singapore",
+      "qualifications": "12",
+      "amatuer": true,
+      "firstMasters": true,
+      "augusta": false,
+      "inp": false
+    },
+    {
+      "firstname": "Nick",
+      "lastname": "Taylor",
+      "country": "Canada",
+      "qualifications": "17",
+      "amatuer": false,
+      "firstMasters": false,
+      "augusta": false,
+      "inp": false
+    },
+    {
+      "firstname": "Sahith",
+      "lastname": "Theegala",
+      "country": "United States",
+      "qualifications": "18, 19",
+      "amatuer": false,
+      "firstMasters": false,
+      "augusta": false,
+      "inp": false
+    },
+    {
+      "firstname": "Justin",
+      "lastname": "Thomas",
+      "country": "United States",
+      "qualifications": "4, 18, 19",
+      "amatuer": false,
+      "firstMasters": false,
+      "augusta": false,
+      "inp": false
+    },
+    {
+      "firstname": "Davis",
+      "lastname": "Thompson",
+      "country": "United States",
+      "qualifications": "17, 19",
+      "amatuer": false,
+      "firstMasters": true,
+      "augusta": false,
+      "inp": false
+    },
+    {
+      "firstname": "Jhonattan",
+      "lastname": "Vegas",
+      "country": "Venezuela",
+      "qualifications": "17",
+      "amatuer": false,
+      "firstMasters": false,
+      "augusta": false,
+      "inp": false
+    },
+    {
+      "firstname": "Bubba",
+      "lastname": "Watson",
+      "country": "United States",
+      "qualifications": "1",
+      "amatuer": false,
+      "firstMasters": false,
+      "augusta": false,
+      "inp": false
+    },
+    {
+      "firstname": "Mike",
+      "lastname": "Weir",
+      "country": "Canada",
+      "qualifications": "1",
+      "amatuer": false,
+      "firstMasters": false,
+      "augusta": false,
+      "inp": false
+    },
+    {
+      "firstname": "Danny",
+      "lastname": "Willett",
+      "country": "England",
+      "qualifications": "1",
+      "amatuer": false,
+      "firstMasters": false,
+      "augusta": false,
+      "inp": false
+    },
+    {
+      "firstname": "Tiger",
+      "lastname": "Woods",
+      "country": "United States",
+      "qualifications": "1",
+      "amatuer": false,
+      "firstMasters": false,
+      "augusta": false,
+      "inp": false
+    },
+    {
+      "firstname": "Cameron",
+      "lastname": "Young",
+      "country": "United States",
+      "qualifications": "13, 19",
+      "amatuer": false,
+      "firstMasters": false,
+      "augusta": false,
+      "inp": false
+    },
+    {
+      "firstname": "Kevin",
+      "lastname": "Yu",
+      "country": "Chinese Taipei",
+      "qualifications": "17",
+      "amatuer": false,
+      "firstMasters": true,
+      "augusta": false,
+      "inp": false
+    },
+    {
+      "firstname": "Will",
+      "lastname": "Zalatoris",
+      "country": "United States",
+      "qualifications": "13",
+      "amatuer": false,
+      "firstMasters": false,
+      "augusta": false,
+      "inp": false
+    }
+  ],
+  "past_champions_not_competing": [
+    {
+      "firstname": "Tommy",
+      "lastname": "Aaron"
+    },
+    {
+      "firstname": "Charles",
+      "lastname": "Coody"
+    },
+    {
+      "firstname": "Ben",
+      "lastname": "Crenshaw"
+    },
+    {
+      "firstname": "Nick",
+      "lastname": "Faldo"
+    },
+    {
+      "firstname": "Raymond",
+      "lastname": "Floyd"
+    },
+    {
+      "firstname": "Trevor",
+      "lastname": "Immelman"
+    },
+    {
+      "firstname": "Sandy",
+      "lastname": "Lyle"
+    },
+    {
+      "firstname": "Larry",
+      "lastname": "Mize"
+    },
+    {
+      "firstname": "Jack",
+      "lastname": "Nicklaus"
+    },
+    {
+      "firstname": "Mark",
+      "lastname": "O'Meara"
+    },
+    {
+      "firstname": "Gary",
+      "lastname": "Player"
+    },
+    {
+      "firstname": "Craig",
+      "lastname": "Stadler"
+    },
+    {
+      "firstname": "Tom",
+      "lastname": "Watson"
+    },
+    {
+      "firstname": "Ian",
+      "lastname": "Woosnam"
+    },
+    {
+      "firstname": "Fuzzy",
+      "lastname": "Zoeller"
+    }
+  ]
+}
