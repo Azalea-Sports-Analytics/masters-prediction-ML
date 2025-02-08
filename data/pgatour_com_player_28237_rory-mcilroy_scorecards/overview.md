@@ -153,7 +153,9 @@ da2-gsrx5bibzbb4njvhl7t37wqyl4
 x-pgat-platform:
 web
 
-## suggest uncompressing
+## suggested uncompressing
+
+https://chatgpt.com/share/67a7e518-d828-800e-9ddd-cddf2a9faac1
 
 ```
 import base64
