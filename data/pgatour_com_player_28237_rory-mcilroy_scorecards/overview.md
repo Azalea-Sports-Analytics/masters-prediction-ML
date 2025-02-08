@@ -152,3 +152,31 @@ da2-gsrx5bibzbb4njvhl7t37wqyl4
 
 x-pgat-platform:
 web
+
+## suggest uncompressing
+
+```
+import base64
+import gzip
+import json
+
+# Compressed payload from response
+compressed_payload = "H4sIAAAAAAAAA92ab2/iRhDGvwqavmmFU3nX//0uuSYt0h2JCK1UVdVpMZvEioPp2pyKonz3yoRw4JmuB86nU/uOYKPHM7vz7G/GeYaPH+v1Ui/Uk4YUbrPS6EyZ+W8eOFCXK9NcWNTj18vTBz24UCYr1LoCB/I5pDCRrpCujM5kLL0IHMhWxuhFPSlXizmkvgMzlT2O84WG9E4VlXbg3pSr5Xj1NNMG0jPhwLJQ6+bzM6jZzOhPuarzclFBCuAcfnWeZbqq8lle5PV6qv+ut/c8qVqvzE4hK1eL2qwhhfFoAru/rwp1v/tunleN7ja0SWnWgw/ZqDDlGhy4y01V7116i/YtyELtLn/+UfVQmta3zmDyY3N7vtDvyqI0kMJ3rhv7V1fw4oBpcrTJeQXpH8+HazHZXdwE8LQsdK0hrc1K75L8S1loSJN20rdZeA1ik/lneCiLrUrz6S37wnVgqcxmnaqNVgp+E4r+a6UX2e4+14GqVvWqWZOb8yZ9a2Xm6l5D6sfefiSQwiW8OC0ZgWU8QkbsyVyMJj+NLg+UPLeldCawlORFJC0RRe2IKB1vqxPYdTxrSKEbtaUklvK3Up49e/6/hyQilDpCJ+CtUmBfpVi0pTwsFWKpgJAK96Wuf778/XCdfEZQEU6eJJQia1DSjRlBxbytF1u2XrN9kc6fjRfXqnivZrqAFEZj2ChNmy8h9YLt9Wa9mgxApbNyMe8ofd7DJpaHlYykMMtRWBzGi8JuHQ8vM6kjbDtKekn3jvJx4VNbV1gcJhCMciSqkYzIszlZ0K3DLEXh2zLnJWiNsGdGPMsUdoMJPEbZxzzLFKHFMxOGNyfMRYosixSi40bimr/+dXpY9OFe0Uc7mtir7gPMcjcQZCq95ZMLXT8s1b0e3Naq1oMbZR4H318UKnv8Ad5uPd8jr+YnN7sro4aFwjg5eKJIfH6isLm0Sci0vGny85a7ExGnsdaTGefLEUe2bQEjDtfnLDYXt70fqzBdTlpNTrYP6CEuVabJWbwnkO1tTcgwPc5CNn7Uzhohw7S4wEobbttLh9gOCIcLj8WawGsfq0N83BH+RiUusm4Et30KDX2OwVFGGtuZEJHakMAaq8UlbK5htjQ2sEnQ1iVoj9vTuB1NDapGAmK57mKxl4Czf7ldzQHcEEc0TiDRQTHbGhvgiABtLEKIS1I2m/E5QlyUshtNjOqf19YcDzio/gkhZlNjJRxBRXRMV+MjwJHfFnAirw04w/8y4Ig2vX8dwGnvNxbgUNva0luJpBvWCLo5fnZDNHEswOka3VDHJ2q0WW0cFVNgWZ8EDR9YhEPJhB2pQ302C3Go1Fl8R0pqmnJaB2cb2kSoUTyWbrwvoRvqiEmsJwxu1gnjJ2yFPMxcq5REueHNbMnDrGM+jKiDCosgnGPHNyFnfNML3viMiuwFbwLGoIjCm875DUJrTup6gRvOZugDbvBo+Ei4CRHceP/36c3rTaexDVWtdg9CU12C3XvAG84kop8BDhI6eUptHeAwOlPCeygZ6+yYng70jje+i+LBMv3gDZ7gsCbUx7+XEogMiT3XA+GEVPd7/Ij6VMKhzD/pYIH2E/PeSh/7bgq/AyN0epneMOLpA21QkRA6fZBN2N2lcd9Hi47uKURs89VGN5yoeoAbPLkldAi2ISOyzog91E1TlW+jmwDRjf+NRzcSjW5eQ0LM8vp/SZungBTeXX+4eX85bfbWQz7Xt+Wn3ZBmacq7vNCXCzUr9BZvXv4BzTS4oFwlAAA="
+
+# Step 1: Base64 decode
+decoded_data = base64.b64decode(compressed_payload)
+
+# Step 2: Gzip decompress
+decompressed_data = gzip.decompress(decoded_data)
+
+# Step 3: Convert bytes to string
+uncompressed_payload = decompressed_data.decode("utf-8")
+
+# Step 4: Try parsing JSON
+try:
+    json_data = json.loads(uncompressed_payload)
+    print(json.dumps(json_data, indent=4))  # Pretty-print JSON
+except json.JSONDecodeError:
+    print("Decompressed data is not valid JSON. Raw output:")
+    print(uncompressed_payload)
+```
