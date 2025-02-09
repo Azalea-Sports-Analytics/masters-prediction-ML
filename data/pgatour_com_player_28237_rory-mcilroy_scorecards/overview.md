@@ -182,3 +182,27 @@ except json.JSONDecodeError:
     print("Decompressed data is not valid JSON. Raw output:")
     print(uncompressed_payload)
 ```
+
+## grabbing directly from an API --  perhaps we can get an entire tour year or at least everyone from a tournament 
+### https://github.com/PGATOUR
+
+### https://stackoverflow.com/questions/75380332/how-to-scrape-data-from-new-2023-pga-tour-website-in-python
+
+
+
+
+https://www.pgatour.com/tournaments/2023/farmers-insurance-open/R2023004
+
+https://www.pgatour.com/stats/detail/02674
+
+https://www.pgatour.com/stats/detail/156
+
+
+### https://sportsdata.io/developers/api-documentation/golf
+
+https://sportsdata.io/developers/coverages/golf
+
+https://sportsdata.io/developers/data-dictionary/golf
+### https://datagolf.com/api-access -- looks like doesn't have hole level data
+https://datagolf.com/api-access?historical-raw-data
+### https://api.pga.com/graphql -- is this the same PGA?
