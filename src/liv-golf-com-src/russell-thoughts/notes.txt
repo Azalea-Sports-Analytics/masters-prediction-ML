@@ -1,0 +1,3 @@
+Some of the .json files aren't quite json.
+
+Some chunk number or such at the beginning of each line
