@@ -1,3 +1,15 @@
 Some of the .json files aren't quite json.
 
-Some chunk number or such at the beginning of each line
+
+
+ChatGPT says:
+
+This format appears to be a custom serialized data structure where:
+
+Numbers followed by : are keys
+
+Values can be either objects (in {}) or arrays (in [])
+
+References to other objects are made using $ followed by the key (e.g., "$4" references the object at key 4:)
+
+This is likely a space-efficient way to store the golf tournament data while maintaining relationships between different pieces of information, similar to a normalized database structure.
