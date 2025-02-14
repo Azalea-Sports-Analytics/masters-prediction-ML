@@ -1,0 +1,12 @@
+### 
+get https://public-udp-data.livgolf.com/performance/v2/tee_spots?liv_course_id=10040&liv_tournament_id=10039
+###
+get https://account.accounts.livgolf.com/sdk.config.get?apiKey=4_St_U1X0gRAGv2ESQRwBOgg&httpStatusCodes=true&ver=1739509680000
+###
+get  https://public-udp-data.livgolf.com/performance/v2/team_leaderboard?season=2025&liv_tournament_id=10039
+###
+get https://public-udp-data.livgolf.com/performance/v2/event?season=2025
+###
+get https://public-udp-data.livgolf.com/performance/v2/live_player_positions/10039
+###
+
