@@ -9,7 +9,9 @@ QUAL_HEADER = [
     "qual_8", "qual_9", "qual_10", "qual_11", "qual_12", "qual_13", "qual_14", "qual_15",
     "qual_16", "qual_17", "qual_18", "qual_19", "qual_20"
 ]
-INVIVITE_STATUS_HEADERS = ["amateur", "firstMasters", "augusta", "inp"]
+# !amatuer was misspelled as amatuer in the notebook
+INVIVITE_STATUS_HEADERS = ["amatuer", "firstMasters", "augusta", "inp"]
+
 IDENTITY_HEADERS = ["firstname", "lastname", "country"]
 
 
@@ -41,8 +43,9 @@ def process_masters_invites(file_path: str) -> pd.DataFrame:
     invitees = one_hut_encode_qualifications(invitees)
 
     # Ensure all INVIVITE_STATUS_HEADERS exist with default 0, then convert them to int
-    invitees = invitees.reindex(columns=invitees.columns.union(
-        INVIVITE_STATUS_HEADERS), fill_value=0)
+    # invitees = invitees.reindex(columns=invitees.columns.union(
+    #     INVIVITE_STATUS_HEADERS), fill_value=0)
+
     invitees[INVIVITE_STATUS_HEADERS] = invitees[INVIVITE_STATUS_HEADERS].astype(
         int)
 

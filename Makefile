@@ -1,5 +1,5 @@
 commit: test
-	git commit -a -m "03-yes past test"
+	git commit -a -m "fix mispelling of amatuer"
 
 test:
 	rm -f /tmp/fred.csv
