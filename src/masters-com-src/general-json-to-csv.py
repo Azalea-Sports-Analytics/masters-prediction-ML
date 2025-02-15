@@ -123,3 +123,7 @@ def unbooleanize_df(booleanize_df: pd.dataframe, bool_column_names: list[str]) -
     for column_name in bool_column_names:
         raise NotImplementedError("port stuff from other file")
     return df
+
+# TODO: main
+# TODO: listing exactly which columns we want in which order
+# TODO: lesting
