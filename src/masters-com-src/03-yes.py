@@ -2,7 +2,7 @@ from typing import Any, no_type_check
 import sys
 import json
 import pandas as pd
-assert (pd)
+
 
 QUAL_HEADER = [
     "qual_1", "qual_2", "qual_3", "qual_4", "qual_5", "qual_6", "qual_7_A", "qual_7_B",
@@ -40,12 +40,11 @@ def process_masters_invites(file_path: str) -> pd.DataFrame:
 
     invitees = one_hut_encode_qualifications(invitees)
 
-    # Convert 'amateur', 'firstMasters', and 'augusta' to 1 or 0 if they exist
-    for column in INVIVITE_STATUS_HEADERS:
-        if column in invitees.columns:
-            invitees[column] = invitees[column].astype(int)
-        else:
-            invitees[column] = 0
+    # Ensure all INVIVITE_STATUS_HEADERS exist with default 0, then convert them to int
+    invitees = invitees.reindex(columns=invitees.columns.union(
+        INVIVITE_STATUS_HEADERS), fill_value=0)
+    invitees[INVIVITE_STATUS_HEADERS] = invitees[INVIVITE_STATUS_HEADERS].astype(
+        int)
 
     final_columns = IDENTITY_HEADERS + QUAL_HEADER + INVIVITE_STATUS_HEADERS
     invitees_final = invitees[final_columns]
