@@ -13,6 +13,20 @@ INVIVITE_STATUS_HEADERS = ["amateur", "firstMasters", "augusta", "inp"]
 IDENTITY_HEADERS = ["firstname", "lastname", "country"]
 
 
+def one_hut_encode_qualifications(invitees: pd.DataFrame) -> pd.DataFrame:
+    # Clean spaces and one-hot encode
+    invitees['qualifications'] = invitees['qualifications'].str.replace(
+        r'\s+', '', regex=True)  # Remove all spaces
+    df_encoded = invitees['qualifications'].str.get_dummies(sep=',')
+    df_encoded = df_encoded.rename(
+        columns=lambda col: 'qual_' + col.replace('-', '_'))
+    for col in QUAL_HEADER:
+        if col not in df_encoded.columns:
+            df_encoded[col] = 0
+    # Concatenate with original DataFrame
+    return pd.concat([invitees, df_encoded], axis=1)
+
+
 def process_masters_invites(file_path: str) -> pd.DataFrame:
     with open(file_path, 'r') as file:
         data: dict[str, Any] = json.load(file)
@@ -20,25 +34,7 @@ def process_masters_invites(file_path: str) -> pd.DataFrame:
 
     invitees = pd.DataFrame.from_records(invitees_list)  # type: ignore
 
-    #############################################
-
-    # Clean spaces and one-hot encode
-    invitees['qualifications'] = invitees['qualifications'].str.replace(  # type: ignore
-        r'\s+', '', regex=True)  # Remove all spaces
-    df_encoded = invitees['qualifications'].str.get_dummies(  # type: ignore
-        sep=',')  # type: ignore
-
-    df_encoded = df_encoded.rename(
-        columns=lambda col: 'qual_' + col.replace('-', '_'))
-
-    for col in QUAL_HEADER:
-        if col not in df_encoded.columns:
-            df_encoded[col] = 0
-
-    # Concatenate with original DataFrame
-    invitees = pd.concat([invitees, df_encoded], axis=1)
-
-    ############################################
+    invitees = one_hut_encode_qualifications(invitees)
 
     # Convert 'amateur', 'firstMasters', and 'augusta' to 1 or 0 if they exist
     for column in INVIVITE_STATUS_HEADERS:
