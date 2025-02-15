@@ -16,19 +16,17 @@
     "python.testing.cwd": "${workspaceFolder}/tests",
     "python.testing.pytestPath": "${workspaceFolder}/.venv/bin/pytest",
     "python.testing.autoTestDiscoverOnSaveEnabled": true,
-
-,
-
     // Editor settings
-    "ruff.importStrategy": "useBundled",
-    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.foldingStrategy": "auto",
+    // "ruff.importStrategy": "useBundled",
+    "editor.defaultFormatter": "ms-python.autopep8",
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
     "editor.formatOnSaveMode": "file",
- //   "editor.codeActionsOnSave": {
-//        "source.organizeImports": "always",
-//        "source.fixAll": "always"
-//    },
+    //   "editor.codeActionsOnSave": {
+    //        "source.organizeImports": "always",
+    //        "source.fixAll": "always"
+    //    },
     "files.autoSave": "onFocusChange",
     "[json]": {
         "editor.defaultFormatter": "vscode.json-language-features"
@@ -36,5 +34,4 @@
     "[jsonc]": {
         "editor.defaultFormatter": "vscode.json-language-features"
     },
-
 }

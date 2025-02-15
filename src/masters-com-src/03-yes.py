@@ -9,7 +9,7 @@ QUAL_HEADER = [
     "qual_8", "qual_9", "qual_10", "qual_11", "qual_12", "qual_13", "qual_14", "qual_15",
     "qual_16", "qual_17", "qual_18", "qual_19", "qual_20"
 ]
-# !amatuer was misspelled as amatuer in the notebook
+# !amatuer was misspelled as amatuer in the notebook -- leading to wrong answers
 INVIVITE_STATUS_HEADERS = ["amatuer", "firstMasters", "augusta", "inp"]
 
 IDENTITY_HEADERS = ["firstname", "lastname", "country"]
@@ -46,8 +46,8 @@ def process_masters_invites(file_path: str) -> pd.DataFrame:
     # invitees = invitees.reindex(columns=invitees.columns.union(
     #     INVIVITE_STATUS_HEADERS), fill_value=0)
 
-    invitees[INVIVITE_STATUS_HEADERS] = invitees[INVIVITE_STATUS_HEADERS].astype(
-        int)
+    invitees[INVIVITE_STATUS_HEADERS] = invitees[
+        INVIVITE_STATUS_HEADERS].astype(int)  # type: ignore
 
     final_columns = IDENTITY_HEADERS + QUAL_HEADER + INVIVITE_STATUS_HEADERS
     invitees_final = invitees[final_columns]
