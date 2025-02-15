@@ -1,4 +1,5 @@
-
+commit: test
+	git commit -a -m "03-yes past test"
 
 test:
 	rm -f /tmp/fred.csv
@@ -6,3 +7,4 @@ test:
 	sort /tmp/answer.csv > /tmp/sorted-answer.csv
 	sort /tmp/fred.csv > /tmp/sorted-fred.csv
 	diff /tmp/sorted-answer.csv /tmp/sorted-fred.csv
+
