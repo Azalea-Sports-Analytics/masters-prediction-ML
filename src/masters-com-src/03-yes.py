@@ -22,53 +22,38 @@ def process_masters_invites(file_path: str) -> pd.DataFrame:
 
     # Initialize all qualification columns with 0
 
-    invitees[QUAL_HEADER] = 0
+    # invitees[QUAL_HEADER] = 0
 
-    def set_qualification(row: pd.Series) -> pd.Series:
-        qualifications = str(row.get('qualifications', '')).split(',')
-        for qual in qualifications:
-            qual_key = f"qual_{qual.strip().replace('-', '_')}"
-            if qual_key in QUAL_HEADER:
-                row[qual_key] = 1
-        return row
-    # Apply the function to set qualifications
-    invitees = invitees.apply(set_qualification, axis=1)
+    # def set_qualification(row: pd.Series) -> pd.Series:
+    #     qualifications = str(row.get('qualifications', '')).split(',')
+    #     for qual in qualifications:
+    #         qual_key = f"qual_{qual.strip().replace('-', '_')}"
+    #         if qual_key in QUAL_HEADER:
+    #             row[qual_key] = 1
+    #     return row
+    # # Apply the function to set qualifications
+    # invitees = invitees.apply(set_qualification, axis=1)
     ###########################################
 
-    # Example qualification headers (only these will be considered)
-    # Set of allowed qualification columns
+    # Clean spaces and one-hot encode
+    invitees['qualifications'] = invitees['qualifications'].str.replace(  # type: ignore
+        r'\s+', '', regex=True)  # Remove all spaces
+    df_encoded = invitees['qualifications'].str.get_dummies(
+        sep=',')  # type: ignore
 
-    # # 1. Split qualifications into multiple rows
-    # invitees_exploded = invitees.assign(
-    #     qualifications=invitees["qualifications"].fillna("").str.split(",")
-    # ).explode("qualifications")
+    df_encoded = df_encoded.rename(
+        columns=lambda col: 'qual_' + col.replace('-', '_'))
 
-    # # 2. Clean qualification column
-    # invitees_exploded["qualifications"] = invitees_exploded["qualifications"].str.strip(
-    # ).str.replace("-", "_")
+    for col in QUAL_HEADER:
+        if col not in df_encoded.columns:
+            df_encoded[col] = 0
 
-    # # 3. One-hot encode valid qualifications
-    # qual_dummies = pd.get_dummies(
-    #     invitees_exploded["qualifications"], prefix="qual")
-
-    # # 4. Filter to only known qualifications (optional, based on QUAL_HEADER)
-    # qual_dummies = qual_dummies.loc[:,
-    #                                 qual_dummies.columns.intersection(QUAL_HEADER)]
-
-    # # 5. Aggregate back to original invitees (reset index before grouping)
-    # invitees_exploded = invitees_exploded.drop(
-    #     columns=["qualifications"]).reset_index()
-    # qual_dummies = qual_dummies.reset_index()
-
-    # # 6. Merge the one-hot encoding back
-    # invitees_final = invitees_exploded.merge(
-    #     qual_dummies.groupby("index").max(),
-    #     on="index"
-    # ).drop(columns=["index"])
-
-    # print(invitees_final)
+    # Concatenate with original DataFrame
+    invitees = pd.concat([invitees, df_encoded], axis=1)
 
     ############################################
+
+    print("Column names:", invitees.columns.tolist())
 
     # Convert 'amateur', 'firstMasters', and 'augusta' to 1 or 0 if they exist
     for column in INVIVITE_STATUS_HEADERS:
