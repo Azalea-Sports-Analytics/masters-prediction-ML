@@ -1,4 +1,4 @@
-from typing import Any
+from typing import Any, no_type_check
 import sys
 import json
 import pandas as pd
@@ -13,17 +13,21 @@ INVIVITE_STATUS_HEADERS = ["amateur", "firstMasters", "augusta", "inp"]
 IDENTITY_HEADERS = ["firstname", "lastname", "country"]
 
 
+@no_type_check
 def one_hut_encode_qualifications(invitees: pd.DataFrame) -> pd.DataFrame:
-    # Clean spaces and one-hot encode
+
     invitees['qualifications'] = invitees['qualifications'].str.replace(
-        r'\s+', '', regex=True)  # Remove all spaces
+        r'\s+', '', regex=True)
+
     df_encoded = invitees['qualifications'].str.get_dummies(sep=',')
+
     df_encoded = df_encoded.rename(
         columns=lambda col: 'qual_' + col.replace('-', '_'))
+
     for col in QUAL_HEADER:
         if col not in df_encoded.columns:
             df_encoded[col] = 0
-    # Concatenate with original DataFrame
+
     return pd.concat([invitees, df_encoded], axis=1)
 
 
