@@ -20,10 +20,12 @@ def process_masters_invites(file_path: str) -> pd.DataFrame:
 
     invitees = pd.DataFrame.from_records(invitees_list)  # type: ignore
 
+    #############################################
+
     # Clean spaces and one-hot encode
     invitees['qualifications'] = invitees['qualifications'].str.replace(  # type: ignore
         r'\s+', '', regex=True)  # Remove all spaces
-    df_encoded = invitees['qualifications'].str.get_dummies(
+    df_encoded = invitees['qualifications'].str.get_dummies(  # type: ignore
         sep=',')  # type: ignore
 
     df_encoded = df_encoded.rename(
@@ -37,8 +39,6 @@ def process_masters_invites(file_path: str) -> pd.DataFrame:
     invitees = pd.concat([invitees, df_encoded], axis=1)
 
     ############################################
-
-    print("Column names:", invitees.columns.tolist())
 
     # Convert 'amateur', 'firstMasters', and 'augusta' to 1 or 0 if they exist
     for column in INVIVITE_STATUS_HEADERS:
