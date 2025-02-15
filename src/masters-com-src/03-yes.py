@@ -20,21 +20,6 @@ def process_masters_invites(file_path: str) -> pd.DataFrame:
 
     invitees = pd.DataFrame.from_records(invitees_list)  # type: ignore
 
-    # Initialize all qualification columns with 0
-
-    # invitees[QUAL_HEADER] = 0
-
-    # def set_qualification(row: pd.Series) -> pd.Series:
-    #     qualifications = str(row.get('qualifications', '')).split(',')
-    #     for qual in qualifications:
-    #         qual_key = f"qual_{qual.strip().replace('-', '_')}"
-    #         if qual_key in QUAL_HEADER:
-    #             row[qual_key] = 1
-    #     return row
-    # # Apply the function to set qualifications
-    # invitees = invitees.apply(set_qualification, axis=1)
-    ###########################################
-
     # Clean spaces and one-hot encode
     invitees['qualifications'] = invitees['qualifications'].str.replace(  # type: ignore
         r'\s+', '', regex=True)  # Remove all spaces
