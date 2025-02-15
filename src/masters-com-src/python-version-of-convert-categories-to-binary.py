@@ -42,10 +42,6 @@ def process_masters_invites(file_path: str) -> pd.DataFrame:
 
     invitees = one_hut_encode_qualifications(invitees)
 
-    # Ensure all INVIVITE_STATUS_HEADERS exist with default 0, then convert them to int
-    # invitees = invitees.reindex(columns=invitees.columns.union(
-    #     INVIVITE_STATUS_HEADERS), fill_value=0)
-
     invitees[INVIVITE_STATUS_HEADERS] = invitees[
         INVIVITE_STATUS_HEADERS].astype(int)  # type: ignore
 
@@ -66,3 +62,6 @@ if __name__ == "__main__":
     processed_df = process_masters_invites(input_json_path)
     # print(processed_df.head())
     processed_df.to_csv(output_csv_path, index=False)
+    processed_df.to_json(  # type: ignore
+        output_csv_path.replace(
+            '.csv', '.json'), orient='records')
