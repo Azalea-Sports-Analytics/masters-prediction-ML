@@ -1,0 +1,18 @@
+course:
+
+https://public-udp-data.livgolf.com/performance/v2/tee_spots?liv_course_id=10017&liv_tournament_id=10021
+
+
+course images:
+
+https://public-udp-data.livgolf.com/performance/v2/maps?smt_tournament_id=25
+
+season:
+
+https://public-udp-data.livgolf.com/performance/v2/event?season=2024
+
+
+leaders
+
+https://www.livgolf.com/leaderboard
+[{"season":2024,"livEventId":"10021","livCourseId":"10017","numberOfRounds":3}]
