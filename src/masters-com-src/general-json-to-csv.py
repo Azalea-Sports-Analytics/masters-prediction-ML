@@ -127,3 +127,5 @@ def unbooleanize_df(booleanize_df: pd.dataframe, bool_column_names: list[str]) -
 # TODO: main
 # TODO: listing exactly which columns we want in which order
 # TODO: lesting
+# TODO: invert for the one-hot encoding
+# TODO: string comparison for whether two fields will one-hot the same
