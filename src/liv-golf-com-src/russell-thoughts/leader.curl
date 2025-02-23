@@ -1,0 +1,14 @@
+curl --location 'https://www.livgolf.com/leaderboard' \
+--header 'sec-ch-ua-platform: "macOS"' \
+--header 'Next-Action: 71b232f32aa5c7eddc5d7505ffbd8735adfc5f7a' \
+--header 'sec-ch-ua: "Not(A:Brand";v="99", "Google Chrome";v="133", "Chromium";v="133"' \
+--header 'sec-ch-ua-mobile: ?0' \
+--header 'Next-Router-State-Tree: %5B%22%22%2C%7B%22children%22%3A%5B%5B%22pageName%22%2C%22leaderboard%22%2C%22oc%22%5D%2C%7B%22children%22%3A%5B%22__PAGE__%22%2C%7B%7D%2C%22%2Fleaderboard%22%2C%22refresh%22%5D%7D%5D%7D%2Cnull%2Cnull%2Ctrue%5D' \
+--header 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36' \
+--header 'Accept: text/x-component' \
+--header 'Content-Type: text/plain;charset=UTF-8' \
+--header 'Sec-Fetch-Site: same-origin' \
+--header 'Sec-Fetch-Mode: cors' \
+--header 'Sec-Fetch-Dest: empty' \
+--header 'host: www.livgolf.com' \
+--data '[{"season":2022}]'

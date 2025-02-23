@@ -1,3 +1,6 @@
 {
-  "recommendations": ["humao.rest-client"]
+  "recommendations": [
+    "humao.rest-client",
+    "github.vscode-pull-request-github"
+  ]
 }
