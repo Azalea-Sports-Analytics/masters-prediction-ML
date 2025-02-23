@@ -74,7 +74,24 @@ This is because Ewan Beck is playing his first Masters, is an amateur, and quali
 I expect the function to be able to do the same process to any csv that looks like this.
 
 
-Input: File Path to the csv
+Input: File Path to the json
 Output: Dataframe as outlined above.
+
+The idea of this function is that this process is repeatable for 2023 and 2024 invite list.
 """
 
+import json
+import pandas as pd
+import os
+
+
+# Now use the relative path from project_root
+file_path = "data/masters-com-data/invitees-2025.json"
+
+with open(file_path, 'r', encoding='utf-8') as file:
+    data = json.load(file)
+
+# Extract the invitees list and convert to DataFrame
+invitees_data = data["invitees"]
+invitees_df = pd.DataFrame(invitees_data)
+print(invitees_df.head())
