@@ -1,5 +1,13 @@
 
 import re
+
+
+def extract_refs(raw: str) -> set[str]:
+    return {match.group(1) for match in re.finditer(r'"\$([a-z0-9]+)"', raw)}
+
+
+
+
 INFILE = "text-leader.txt"
 # OUTFILE = "candidate.json"
 
