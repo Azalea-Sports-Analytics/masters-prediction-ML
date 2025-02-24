@@ -5,8 +5,6 @@ INFILE = "text-leader.txt"
 
 GOOD_RE = re.compile(
     r'^[0-9a-z]+:[{[]"'
-    # r'^[0-9a-z]+:"'
-    # r'^(?:[0-9a-z]+):(?:\[|\{)"'
 )
 
 
@@ -28,7 +26,7 @@ def main():
         lines = f.readlines()
 
         for i, line in enumerate(lines):
-            # print(                f"{i} -- IN:{in_bad} -- QUAL:{good_line(line)} -- {line[:20]=}\n")
+
             if in_bad:
                 if good_line(line):
                     in_bad = False
