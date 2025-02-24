@@ -1,92 +1,91 @@
-Invitees,Country,Qualification
-"Ãberg, Ludvig",Sweden,"13, 18, 19"
-"An, Byeong Hun",Korea,"18, 19"
-"#* Ballester, Jose Luis",Spain,7-A
-"#* Beck, Evan",United States,11
-"Bezuidenhout, Christiaan",South Africa,18
-"Bhatia, Akshay",United States,"18, 19"
-"Bradley, Keegan",United States,"17, 18, 19"
-"Burns, Sam",United States,"18, 19"
-"Cabrera, Angel",Argentina,1
-"# Campos, Rafael",Puerto Rico,17
-"Cantlay, Patrick",United States,"14, 18, 19"
-"Clark, Wyndham",United States,"2, 18, 19"
-"Conners, Corey",Canada,19
-"Couples, Fred",United States,1
-"Davis, Cameron",Australia,"13, 17"
-"Day, Jason",Australia,19
-"DeChambeau, Bryson",United States,"2, 13, 16, 19"
-"# Detry, Thomas",Belgium,16
-"Dunlap, Nick",United States,19
-"# Echavarria, Nicolas",Colombia,17
-"Eckroat, Austin",United States,"17, 19"
-"English, Harris",United States,17
-"Finau, Tony",United States,"14, 18, 19"
-"Fitzpatrick, Matt",England,"2, 19"
-"Fleetwood, Tommy",England,"13, 18, 19"
-"Garcia, Sergio",Spain,1
-"Glover, Lucas",United States,19
-"# Greyserman, Max",United States,19
-"Harman, Brian",United States,"3, 19"
-"#* Hastings, Justin",Cayman Islands,10
-"Hatton, Tyrrell",England,"13, 19"
-"Henley, Russell",United States,"18, 19"
-"Hoge, Tom",United States,18
-"^ HÃ¸jgaard, Nicolai",Denmark,Special
-"# HÃ¸jgaard, Rasmus",Denmark,19
-"Homa, Max",United States,"13, 19"
-"Horschel, Billy",United States,"15, 18, 19"
-"Hovland, Viktor",Norway,"16, 18, 19"
-"Im, Sungjae",Korea,"18, 19"
-"Johnson, Dustin",United States,1
-"Johnson, Zach",United States,1
-"#* Kent, Noah",United States,7-B
-"Kim, Tom",Korea,19
-"Kirk, Chris",United States,18
-"Kizzire, Patton",United States,17
-"Koepka, Brooks",United States,4
-"Langer, Bernhard",Germany,1
-"# Lawrence, Thriston",South Africa,"15, 19"
-"Lee, Min Woo",Australia,19
-"Lowry, Shane",Ireland,"18, 19"
-"MacIntyre, Robert",Scotland,"17, 18, 19"
-"Matsuyama, Hideki",Japan,"1, 17, 18, 19"
-"McCarthy, Denny",United States,19
-"# McCarty, Matt",United States,"17, 19"
-"McIlroy, Rory",Northern Ireland,"14, 17, 18, 19"
-"# McNealy, Maverick",United States,"17, 19"
-"Mickelson, Phil",United States,"1, 4"
-"Morikawa, Collin",United States,"3, 4, 13, 16, 18, 19"
-"^ Niemann, JoaquÃ­n",Chile,Special
-"Olazabal, Jose Maria",Spain,1
-"Pavon, Matthieu",France,"13, 18, 19"
-"# Pendrith, Taylor",Canada,"17, 18, 19"
-"Poston, J.T.",United States,"17, 19"
-"Rahm, Jon",Spain,"1, 2, 19"
-"# Rai, Aaron",England,"17, 18, 19"
-"Reed, Patrick",United States,"1, 13"
-"# Riley, Davis",United States,17
-"Rose, Justin",England,"15, 19"
-"Schauffele, Xander",United States,"3, 4, 13, 18, 19"
-"Scheffler, Scottie",United States,"1, 5, 6, 17, 18, 19"
-"Schenk, Adam",United States,13
-"Schwartzel, Charl",South Africa,1
-"Scott, Adam",Australia,"1, 18, 19"
-"Singh, Vijay",Fiji,1
-"Smith, Cameron",Australia,"3, 13"
-"Spieth, Jordan",United States,1
-"Straka, Sepp",Austria,"17, 18, 19"
-"#* Tai, Hiroshi",Singapore,12
-"Taylor, Nick",Canada,17
-"Theegala, Sahith",United States,"18, 19"
-"Thomas, Justin",United States,"4, 18, 19"
-"# Thompson, Davis",United States,"17, 19"
-"Vegas, Jhonattan",Venezuela,17
-"Watson, Bubba",United States,1
-"Weir, Mike",Canada,1
-"Willett, Danny",England,1
-"Woods, Tiger",United States,1
-"Young, Cameron",United States,"13, 19"
-"# Yu, Kevin",Chinese Taipei,17
-"Zalatoris, Will",United States,13
-"# Denotes first Masters * Denotes Amateur 	^ The Masters Committee, at its discretion, also invites international players not otherwise qualified.","# Denotes first Masters * Denotes Amateur 	^ The Masters Committee, at its discretion, also invites international players not otherwise qualified.","# Denotes first Masters * Denotes Amateur 	^ The Masters Committee, at its discretion, also invites international players not otherwise qualified."
+firstname,lastname,country,qual_1,qual_2,qual_3,qual_4,qual_5,qual_6,qual_7_A,qual_7_B,qual_8,qual_9,qual_10,qual_11,qual_12,qual_13,qual_14,qual_15,qual_16,qual_17,qual_18,qual_19,qual_20,amateur,firstMasters,augusta,inp,PGATOUR_ID
+Ludvig,Åberg,Sweden,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,52955.0
+Byeong Hun,An,Korea,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,33948.0
+Jose Luis ,Ballester,Spain,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,
+Evan,Beck,United States,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,
+Christiaan,Bezuidenhout,South Africa,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,45522.0
+Akshay,Bhatia,United States,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,56630.0
+Keegan,Bradley,United States,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,33141.0
+Sam,Burns,United States,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,47504.0
+Angel,Cabrera,Argentina,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20848.0
+Rafael,Campos,Puerto Rico,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,32070.0
+Patrick,Cantlay,United States,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0,35450.0
+Wyndham,Clark,United States,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,51766.0
+Corey,Conners,Canada,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,39997.0
+Fred,Couples,United States,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1226.0
+Cameron,Davis,Australia,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,
+Jason,Day,Australia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,28089.0
+Bryson,DeChambeau,United States,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0,47959.0
+Thomas,Detry,Belgium,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,33653.0
+Nick,Dunlap,United States,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,59866.0
+Nicolas,Echavarria,Colombia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,
+Austin,Eckroat,United States,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,57362.0
+Harris,English,United States,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,34099.0
+Tony,Finau,United States,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0,29725.0
+Matt,Fitzpatrick,England,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,40098.0
+Tommy,Fleetwood,England,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,30911.0
+Sergio,Garcia,Spain,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21209.0
+Lucas,Glover,United States,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,25900.0
+Max,Greyserman,United States,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,51977.0
+Brian,Harman,United States,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,27644.0
+Justin,Hastings,Cayman Islands,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,66248.0
+Tyrrell,Hatton,England,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,34363.0
+Russell,Henley,United States,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,34098.0
+Tom,Hoge,United States,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,35532.0
+Nicolai,Højgaard,Denmark,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,52453.0
+Rasmus,Højgaard,Denmark,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,52686.0
+Max,Homa,United States,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,39977.0
+Billy,Horschel,United States,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,29420.0
+Viktor,Hovland,Norway,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,46717.0
+Sungjae,Im,Korea,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,39971.0
+Dustin,Johnson,United States,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,30925.0
+Zach,Johnson,United States,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,24024.0
+Noah,Kent,United States,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,
+Tom,Kim,Korea,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,55182.0
+Chris,Kirk,United States,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,30926.0
+Patton,Kizzire,United States,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,32757.0
+Brooks,Koepka,United States,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,36689.0
+Bernhard,Langer,Germany,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1666.0
+Thriston,Lawrence,South Africa,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,1,0,0,45523.0
+Min Woo,Lee,Australia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,37378.0
+Shane,Lowry,Ireland,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,33204.0
+Robert,MacIntyre,Scotland,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,52215.0
+Hideki,Matsuyama,Japan,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,32839.0
+Denny,McCarthy,United States,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,47993.0
+Matt,McCarty,United States,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,59141.0
+Rory,McIlroy,Northern Ireland,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,1,0,0,0,0,0,28237.0
+Maverick,McNealy,United States,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,46442.0
+Phil,Mickelson,United States,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1810.0
+Collin,Morikawa,United States,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,1,1,0,0,0,0,0,50525.0
+Joaquín,Niemann,Chile,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,45486.0
+Jose Maria,Olazabal,Spain,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6373.0
+Matthieu,Pavon,France,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,48153.0
+Taylor,Pendrith,Canada,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,1,0,0,40250.0
+J.T.,Poston,United States,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,49771.0
+Jon,Rahm,Spain,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,46970.0
+Aaron,Rai,England,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,1,0,0,46414.0
+Patrick,Reed,United States,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,34360.0
+Davis,Riley,United States,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,47995.0
+Justin,Rose,England,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,22405.0
+Xander,Schauffele,United States,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,48081.0
+Scottie,Scheffler,United States,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,46046.0
+Adam,Schenk,United States,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,47347.0
+Charl,Schwartzel,South Africa,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,26331.0
+Adam,Scott,Australia,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,24502.0
+Vijay,Singh,Fiji,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6567.0
+Cameron,Smith,Australia,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,35891.0
+Jordan,Spieth,United States,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,34046.0
+Sepp,Straka,Austria,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,49960.0
+Hiroshi,Tai,Singapore,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,
+Nick,Taylor,Canada,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,25493.0
+Sahith,Theegala,United States,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,51634.0
+Justin,Thomas,United States,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,33448.0
+Davis,Thompson,United States,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,58168.0
+Jhonattan,Vegas,Venezuela,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,27064.0
+Bubba,Watson,United States,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25804.0
+Mike,Weir,Canada,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10423.0
+Danny,Willett,England,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,32139.0
+Tiger,Woods,United States,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8793.0
+Cameron,Young,United States,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,57366.0
+Kevin,Yu,Chinese Taipei,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,45242.0
+Will,Zalatoris,United States,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,47483.0
