@@ -1,8 +1,5 @@
 import re
-from convert_near_json import extract_refs
-
-
-
+from convert_from_near_json import extract_refs
 
 
 def test_extra_refs():

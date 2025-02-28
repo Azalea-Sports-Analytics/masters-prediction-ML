@@ -1,7 +1,6 @@
 # import re
 import pytest
-from convert_near_json import good_line, bad_line
-
+from convert_from_near_json import good_line, bad_line
 
 
 # GOOD_RE = re.compile(
